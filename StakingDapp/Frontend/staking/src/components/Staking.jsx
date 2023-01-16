@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useStateContext } from "../context";
 import { useEffect } from "react";
-import { loader } from "../svgs";
+// import { loader } from "../svgs";
 
 const Staking = () => {
   const {
@@ -138,11 +138,12 @@ const Staking = () => {
     <div className="w-screen h-screen flex flex-col justify-center items-center font-sans text-white bg-gradient-to-b from-pink-200 to-[#fed6e3];">
       {isLoading && (
         <div className="flex flex-row justify-center items-center w-full h-full absolute backdrop-blur-[3px]">
-          <img
+          {/* <img
             src={loader}
             alt="loader"
             className="w-[100px] h-[100px] object-cover"
-          />
+          /> */}
+          <h1 className=" text-bold text-3xl">Loading...</h1>
         </div>
       )}
 

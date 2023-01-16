@@ -1,3 +1,3 @@
-import loader from "./loader.svg";
+// import loader from "./loader.svg";
 
-export { loader };
+// export { loader };
